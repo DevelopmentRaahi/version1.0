@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+        font-size: 0.9rem;
+    }
+    
+    #navbg {
+        background-image: linear-gradient(82deg, rgb(150, 93, 232) 0%, rgb(107, 89, 237) 100%);
+    }
+    
+    
+    #warningbtn {
+        padding: 0rem 2rem;
+        font-size: 0.8rem;
+    }
+    
+    .inputset input {
+        font-size: 0.8rem;
+    }
+    
+    .dropdown-menu li a {
+        font-size: 0.8rem;
+    }
+    
+    .navbar-brand {
+        color: rgb(255, 191, 0);
+}
+
+.bg-nav {
+    background-color: #2f4e7e;
+}
+
+.bg_input {
+    background-color: #1e364e;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.999);
+}
+
+.bg-color {
+    background-color: antiquewhite;
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
+
+}
+
+.image-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer {
+    height: auto;
+    background-image: linear-gradient(82deg, rgb(150, 93, 232) 0%, rgb(107, 89, 237) 100%);
+    padding: 1.2rem 0rem;
+}
+
+footer ul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+footer ul>p {
+    font-size: 1.3rem;
+    color: rgb(255, 191, 0);
+    font-weight: 600;
+}
+
+#buttonbg {
+    background-color: rgb(150, 93, 232);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#buttonbg:hover {
+    background-color: rgb(47, 3, 105);
+}
+
+#buttonbg2:hover {
+    background-color: rgba(47, 3, 105, 0);
+}
+
+.imgset {
+    width: 40vw;
+    height: auto;
+}
+
+.fontsize {
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+
+.starcolor {
+    color: rgb(255, 191, 0);
+}
+
+.main-logotext-content {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.mainimgtext {
+    padding: 0vw 0.5rem;
+}
+
+.mainimgtext img {
+    width: 2.5vw;
+    height: 2.5vw;
+    text-align: center;
+}
+
+.mainimgtext p {
+    font-size: 0.8rem;
+}
+
+.main-last {
+    display: flex;
+}
+
+#top {
+    padding: 0em 1em;
+    font-size: 0.9rem;
+}
+
+.mainimgtext #top {
+    position: relative;
+    top: -4.5rem;
+    left: 2.2rem;
+}
+
+.bgcolor {
+    background-color: rgba(250, 235, 215, 0.335);
+}
+
+.box {
+    border: 1px solid #4c55f1;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+}
+
+.box li {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+#first {
+    font-size: 2rem;
+    color: #2962ff;
+}
+
+#price {
+    font-size: 1.8rem;
+}
+
+#price span {
+    color: rgb(95, 99, 104);
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 2vw;
+    height: 2vw;
+}
+
+#contenet {
+    font-size: 0.8rem;
+}
+
+#lines {
+    text-decoration: line-through;
+    font-size: 1.3vw;
+    color: rgb(95, 99, 104);
+}
+
+.box-space,
+.extra-space {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.textcolor {
+    color: #2962ff;
+}
+
+.sixbox h4 {
+    color: #ffc107;
+}
+
+
+.sixbox p {
+    font-size: 0.8rem;
+}
+
+.sixbox-colored {
+    background-color: #6B59ED;
+    padding: 10rem 2.4rem;
+}
+
+.sixbox-colored h3 {
+    color: #ffffff;
+    line-height: 2rem;
+}
+
+.sixbox-colored p {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.sixbox-down h4 {
+    color: #2962ff;
+    font-size: 1.2em;
+}
+
+
+
+.sixbox-down {
+    background-color: antiquewhite;
+    padding: 1em 2em;
+}
+
+.bgcolor {
+    padding: 4rem 2rem;
+    background-image: linear-gradient(82deg, rgb(150, 93, 232) 0%, rgb(107, 89, 237) 100%);
+    height: 17rem;
+}
+
+.heading {
+    color: #fff;
+}
+
+.img-girl {
+    width: 80%;
+    position: relative;
+    top: -18.8rem;
+}
+
+.bgcolor1 {
+    background-color: rgba(238, 238, 238, 0.516);
+}
+
+.boxstyle {
+    width: 32%;
+    background-color: #c6aaaa3e;
+    margin: 5px;
+}
+
+.smallBox img {
+    width: 4rem;
+
+}
+
+.smallBox h2 {
+
+    font-size: 1.9rem;
+    color: #6d6e70;
+}
+
+.smallBox p {
+    font-size: 0.8rem;
+    padding: 2rem 2rem;
+}
+
+.boxstyle {
+    padding: 2rem;
+}
+  .hideline {
+      display: none;
+  }
+
+  .oddcolor {
+      background-color: #ffe6ca5a;
+  }
+
+  .evencolor {
+      background-color: #dedede80;
+  }
+footer li a{
+    text-decoration: none;
+    color: #efece2;
+}
+footer li a:hover{    
+    color: #fdc200;
+}
+/* headings */
+h1 h2 h3 h4 h5 h6{
+  font-family: "Inter", sans-serif;
+}
+
