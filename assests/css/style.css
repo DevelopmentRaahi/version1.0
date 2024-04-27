@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-* {
+body {
     margin: 0;
     padding: 0;
+    font-size: 15px;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+      font-family: "Poppins", sans-serif;
 }
 
 
 nav {
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-        font-size: 0.9rem;
+    font-weight: 300;
+    
     }
+.navbar-nav a{
+    font-size: 1rem;
+    font-weight: 550;
+}
+.navbtn{
+    background-color: #fc5a15;
+    padding: 4px 17px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2px;
+
+}
+.navbtn:hover{
+    background-color: black;
+    color: #fff;
+}
+.logo-vertical{
+    display: grid;
+}
     
     #navbg {
+        
+        height: 70px;
         background-image: linear-gradient(82deg, rgb(150, 93, 232) 0%, rgb(107, 89, 237) 100%);
     }
     
@@ -290,7 +312,9 @@ footer li a{
 }
 footer li a:hover{    
     color: #fdc200;
+    transition: all 1s ease;
 }
+
 /* headings */
 h1 h2 h3 h4 h5 h6{
   font-family: "Inter", sans-serif;
