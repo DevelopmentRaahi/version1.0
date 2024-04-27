@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
 body{
 font-family: "Lato", sans-serif;
 font-size: 15px;
@@ -21,8 +22,17 @@ font-size: 15px;
   .lato-text h1{
     padding-bottom: 2rem;
   }
-
-
+  .textNav  {
+    margin-left: 15px;
+  }
+.textNav  span {
+  font-size: 2rem;
+  font-weight: 600; 
+}
+.xclor{
+  font-size: rem;
+  color: rgb(3, 121, 238);
+}
 .lato-light {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -68,11 +78,12 @@ font-size: 15px;
     border-style: none;
 }
 .border-none:hover{
-  box-shadow:  0px 2px 2px 0px rgba(0, 0, 0, 0.08) !important;
+  box-shadow:  5px 2px 5px 0px rgba(0, 0, 0, 0.08) !important;
    transition: all 2s ease-in 1s repeat;
 }
 #img-main{
-  width: 70%;
+  width: 100%;
+  padding: 10px 5px 10px 0px;
 }
 
 h2{
@@ -81,11 +92,15 @@ h2{
 .card{
   width: 100%; 
   padding: 0.2rem;
-  height: 100%;
+  height:100%;
+  object-fit: cover;
 }
  .card-title{
-  font-size: 1rem;
-  font-weight: 400;
+  position: relative;
+  top: 30%;
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 600;
  }
  .card-title{
   font-size: 1.1rem;
@@ -113,9 +128,16 @@ background: linear-gradient(90deg, rgba(232,137,137,1) 0%, rgba(210,200,165,1) 3
 .list-group-item-action:hover{
     background-color: blanchedalmond;
 }
+.cardimg{
+  width: 100%;
+  height: 90%;
+}
 .cardimg img{ 
   width: 100%;  
+  height: 75%;
 }
+
+
 .Card-font{
   color:#23488a;
   font-weight: 600;
@@ -148,8 +170,8 @@ margin-top: 1.2rem;
   color: white;
 }
 .card-body {
-  background-color: #23488a;
-  color: #fff;
+  background-color: #ffffff;
+  color: #1d1d1d;
 }
 
 .justify-text h2, h3 {
@@ -167,10 +189,19 @@ margin-top: 1.2rem;
 h1 h2 h3 h4 h5 h6{
   font-family: "Inter", sans-serif;
 }
+.card:hover{
+  margin-bottom: 2px;
+  transition: all 2s ease-in;
+}
 .card-img-top{
   width: 90rem;
   height:90%;
-  padding: 3px;
+  padding: 2px 1px;
+}
+.card-img-top:hover{
+  height: 101%;
+  transition: all 2s ease-in;
+  box-sizing: border-box;
 }
 
 .pre-main{
@@ -206,6 +237,13 @@ h1 h2 h3 h4 h5 h6{
   justify-content: space-between;
   align-items: center;
 }
+
+@media  (max-width: 600px) {
+  .textNav, .supprtnum{
+display: none;
+  }
+}
+
 .main-center{
   position: relative;
   margin: auto;
@@ -215,52 +253,10 @@ h1 h2 h3 h4 h5 h6{
  margin-left: 10px;
 }
 
-/* .breadcrumbs {
-  padding: 15px 0;
-  background: #a1a1a1;
-  /* background-image: url("../img/sliders/one.png"); */
- /*  min-height: 40px;
-  margin-top: 5px;
-  color: #fff;
-}
-
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 500;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol a {
-  color: #aaaaaa;
-}
-
-.breadcrumbs ol a:hover {
-  color: #fff;
-  transition: 0.3s;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #e03a3c;
-  content: "/";
-} */
 .breadcrumbs{
   text-align: center;
   position: relative;
-  top: 20px;
+  top: 10%;
   margin-bottom: 5px;
 }
 .breadcrumbs li{
@@ -268,19 +264,38 @@ h1 h2 h3 h4 h5 h6{
 }
 .breadcrumbs a{
   text-decoration: none;
+ 
+}
+.breadcrumbs{
+   top: 5%;
+   margin: 0;
+}
+.breadcrumbs{
+  background-color: rgba(46, 43, 43, 0);
+  height: 30%;
+ top:10px;
+ border-bottom: 1px solid rgba(54, 53, 53, 0);
+}
+.main-bred {
+  position: relative;
+  top: 20%;
+  left: 15px;
+  padding: 0.5rem 0rem;
+  display: grid;
+ justify-content: center;
 }
 .line-bred, .main-card{
   display: flex;
   flex-direction: row;
-  justify-content: center;
- }
+  justify-content:center;
+   }
 .line-bred li{
   padding-right: 7px;
 }
 .card-title:hover{
-  color: yellow;
-  font-weight: 500;
-  transition: all 0.6s linear;
+  color: #3f0db5;
+  font-weight: 700;
+  transition: all 0.3s linear;
 }
 .main-icons{
   list-style: none;
@@ -403,4 +418,19 @@ div p {
 .wraptext{
   display: inline;
 }
+}
+/* input */
+
+.but-side{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;  
+  padding: 10px 0px;
+  align-items: center;
+}
+.line-bred li a:hover{
+color: rgb(31, 28, 28);
+}
+.resText h2,h3{
+color: #1d1d1d;
 }
